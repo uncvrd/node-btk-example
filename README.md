@@ -12,4 +12,8 @@ To build manually:
 
 ## Running Docker image
 
+    # run in foreground (ctrl-c to stop)
+    $ docker run -p 44444:8080 -it brianfive/simple-express-docker
+
+    # run in background as daemon
     $ docker run -p 44444:8080 -d brianfive/simple-express-docker
