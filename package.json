@@ -10,7 +10,7 @@
   },
   "main": "server.js",
   "scripts": {
-    "start": "node server.js"
+    "start": "node --inspect server.js"
   },
   "dependencies": {
     "express": "^4.14.0"
